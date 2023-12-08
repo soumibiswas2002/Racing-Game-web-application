@@ -1,0 +1,74 @@
+#background{
+  background-image: url(images/city.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 580px;
+  width: auto;
+}
+#road{
+  position: relative;
+  background-image: url(images/road.jpg);
+  height: 300px;
+  width: auto;
+}
+#car1{
+  position: absolute;
+    height: 70px;
+    width: 210px;
+    top: 30px;
+    /* left: 150px; */
+}
+
+/*Pokemon
+
+ #car2{
+  position: absolute;
+  height: 190px;
+  width: 190px;
+  top: 108px;
+  left: 1520px;
+} */
+
+#car2{
+  position: absolute;
+    height: 100px;
+    width: 300px;
+    top: 150px;
+    left: 1420px;
+}
+
+#panel{
+  justify-content: center;
+  display: flex;
+}
+
+.stop{
+  margin-left: 15px;
+}
+
+.btn {
+  background: #030d14;
+  background-image: -webkit-linear-gradient(top, #030d14, #686b6e);
+  background-image: -moz-linear-gradient(top, #030d14, #686b6e);
+  background-image: -ms-linear-gradient(top, #030d14, #686b6e);
+  background-image: -o-linear-gradient(top, #030d14, #686b6e);
+  background-image: linear-gradient(to bottom, #030d14, #686b6e);
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: 'Berlin Sans FB';
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  margin-top: 30px;
+}
+.btn:hover {
+  background: #030d14;
+  background-image: -webkit-linear-gradient(top,  #e0dde0, #000000);
+  background-image: -moz-linear-gradient(top,  #e0dde0, #000000);
+  background-image: -ms-linear-gradient(top,  #e0dde0, #000000);
+  background-image: -o-linear-gradient(top,  #e0dde0, #000000);
+  background-image: linear-gradient(to bottom,  #e0dde0, #000000);
+  text-decoration: none;
+}
